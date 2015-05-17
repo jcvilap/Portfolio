@@ -6,7 +6,7 @@ files:
 hooks:
    BeforeInstall:
     - location: /var/tmp/scripts/stopnode.sh
-      runas: root
+      runas: ubuntu
    AfterInstall:
     - location: /var/tmp/scripts/startnode.sh
-      runas: root
+      runas: ubuntu
