@@ -2,11 +2,11 @@ version: 0.0
 os: linux
 files:
    - source: /
-     destination: /dev/Portfolio
+     destination: /var/tmp/node
 hooks:
    BeforeInstall:
-    - location: scripts/stopnode.sh
+    - location: /var/tmp/scripts/stopnode.sh
       runas: root
    AfterInstall:
-    - location: scripts/startnode.sh
+    - location: /var/tmp/scripts/startnode.sh
       runas: root
