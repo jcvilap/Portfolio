@@ -5,8 +5,8 @@ files:
      destination: /var/tmp/node
 hooks:
    BeforeInstall:
-    - location: /var/tmp/scripts/stopnode.sh
+    - location: scripts/stopnode.sh
       runas: root
    AfterInstall:
-    - location: /var/tmp/scripts/startnode.sh
+    - location: scripts/startnode.sh
       runas: root
