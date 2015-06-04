@@ -1,14 +1,12 @@
-var app = angular.module('PortfolioApp', ['ngMaterial']);
+angular.module('PortfolioApp', ['ngMaterial', 'ngRoute']).
 
-app.config(function($mdThemingProvider) {
+config(function($mdThemingProvider) {
     $mdThemingProvider.theme('default')
-        .primaryPalette('grey')
-        .accentPalette('grey')
-        //.dark()
-    ;
-});
+        .primaryPalette('light-green')
+        .accentPalette('grey');
+}).
 
-app.controller('AppCtrl', ['$scope', '$mdSidenav', function($scope, $mdSidenav){
+controller('AppCtrl', ['$scope', '$mdSidenav', function($scope, $mdSidenav){
     $scope.toggleSidenav = function(menuId) {
         $mdSidenav(menuId).toggle();
     };
