@@ -10,16 +10,16 @@
         </div>
         <ul >
             <li>
-                <md-button class="md-primary active">About Me</md-button>
+                <md-button class="md-primary active" ng-class="active : tabindex==1 " ng-click="tabindex = 1">About Me</md-button>
             </li>
             <li>
-                <md-button class="md-primary">Resume</md-button>
+                <md-button class="md-primary" ng-class="active : tabindex==2 " ng-click="tabindex = 2">Resume</md-button>
             </li>
             <li>
-                <md-button class="md-primary">Contact</md-button>
+                <md-button class="md-primary" ng-class="active :  tabindex==3 " ng-click="tabindex = 3">Contact</md-button>
             </li>
             <li>
-                <md-button class="md-primary">Resources</md-button>
+                <md-button class="md-primary" ng-class="active : tabindex==4 " ng-click="tabindex = 4">Resources</md-button>
             </li>
 
         </ul>

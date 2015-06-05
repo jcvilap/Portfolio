@@ -4,4 +4,19 @@
   button{
     color: red;
   }
+
+  h1{
+    font-size: 25px;
+    i{
+      cursor: pointer;
+      position: absolute;
+      top: 20px;
+      &.mdi-linkedin-box{
+        right: 35px;
+      }
+      &.mdi-github-box{
+        right: 80px;
+      }
+    }
+  }
 }
