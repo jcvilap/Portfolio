@@ -5,7 +5,7 @@ directive('sidenav', function() {
         link: function(scope, elem, attr) {
             //
         },
-        templateUrl: 'client/components/sidenav/sidenav.tpl.html',
+        templateUrl: 'client/components/layout/sidenav/sidenav.tpl.html',
         controller: function($scope, $state){
             $scope.index = 1;
             $scope.changeView = function(index){

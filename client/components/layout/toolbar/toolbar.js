@@ -5,6 +5,6 @@ directive('toolbar', function() {
         link: function(scope, elem, attr) {
             //
         },
-        templateUrl: 'client/components/toolbar/toolbar.tpl.html'
+        templateUrl: 'client/components/layout/toolbar/toolbar.tpl.html'
     };
 });
