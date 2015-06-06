@@ -8,3 +8,17 @@ md-list .md-button {
     text-align: left;
     width: 100%;
 }
+
+/* Animations */
+
+.sidenav-item.active-add, .sidenav-item.active-remove{
+  transition: 150ms linear all;
+  color: black!important;
+  border-color: transparent;
+}
+
+.sidenav-item.active, .sidenav-item.active-add-active {
+  border-color: #fff;
+  color: white!important;
+  font-size: x-large;
+}

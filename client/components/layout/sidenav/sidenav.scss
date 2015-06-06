@@ -1,3 +1,4 @@
+
 .md-sidenav-left{
   background-color: #00B0FF;
   md-content{
@@ -12,17 +13,23 @@
         color: black !important;
         margin: 0;
         padding:20px;
-        &:hover{
-          background-color: #0288D1 !important;
-          color: lightgray !important;
+        border-left: 5px solid;
+        border-color: transparent;
+        border-radius: 0!important;
+        &:not(.active){
+          &:hover{
+            background-color: transparent !important;
+            border-color: black;
+          }
         }
       }
 
       .active{
-        border-left: 5px solid;
-        border-color: #fff;
-        color: white!important;
-        font-size: larger;
+
+        &:hover{
+          background-color: transparent!important;
+          cursor: default;
+        }
       }
 
     }

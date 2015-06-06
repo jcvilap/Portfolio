@@ -1,0 +1,27 @@
+<md-sidenav layout="column"
+            class="md-sidenav-left md-whiteframe-z2"
+            md-component-id="left"
+            md-close
+            md-is-locked-open="$mdMedia('gt-sm')">
+
+    <md-content layout-padding>
+        <div class="profile-content">
+            <img src="/assets/profile.jpg" alt="profile" width="287"/>
+        </div>
+        <ul >
+            <li>
+                <md-button md-no-ink class="md-primary sidenav-item" ng-class="{active : index==1}" ng-click="changeView(1)">About Me</md-button>
+            </li>
+            <li>
+                <md-button md-no-ink class="md-primary sidenav-item" ng-class="{active : index==2}" ng-click="changeView(2)">Resume</md-button>
+            </li>
+            <li>
+                <md-button md-no-ink class="md-primary sidenav-item" ng-class="{active :  index==3}" ng-click="changeView(3)">Contact</md-button>
+            </li>
+            <li>
+                <md-button md-no-ink class="md-primary sidenav-item" ng-class="{active : index==4}" ng-click="changeView(4)">Resources</md-button>
+            </li>
+
+        </ul>
+    </md-content>
+</md-sidenav>

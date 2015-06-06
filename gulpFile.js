@@ -38,4 +38,4 @@ gulp.task('watch', function () {
     gulp.watch('./client/**/*tpl.html', ['templateCache']);
 });
 
-gulp.task('default', ['sass', 'templateCache']);
+gulp.task('default', ['sass', 'templateCache', 'watch']);
