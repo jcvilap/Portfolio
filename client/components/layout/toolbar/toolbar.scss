@@ -6,6 +6,24 @@
   }
 
   h1{
+    span.welcome{
+      font-weight: 200;
+      color: #01579B;
+    }
+    .toolbar-name{
+      position: absolute;
+      left: 20px;
+      top: 15px;
+      font-weight: 100;
+      font-size: 2rem;
+      span{
+        font-weight: 300;
+      }
+      strong{
+        font-weight: 500;
+      }
+    }
+
     font-size: 25px;
     i{
       cursor: pointer;

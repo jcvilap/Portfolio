@@ -1,0 +1,40 @@
+.about-me-container{
+  max-width: 884px;
+  p{
+    font-size: 20px;
+    font-weight: 200;
+    strong{
+      font-weight: 500;
+    }
+  }
+  .img-wrap{
+    max-width: 137px;
+    margin:20px 40px;
+    img{
+      max-width: 120px;
+      max-height: 120px;
+      &.mongo-logo{
+        margin: 42px 0;
+      }
+      &.express-logo{
+        margin: 47px 0;
+      }
+      &.grunt-logo{
+        margin-left: 10px;
+      }
+      &.gulp-logo{
+        margin-left: 30px;
+      }
+      &.maven-logo{
+        margin: 46px 0;
+      }
+      &.underscore-logo{
+        margin: 50px 2px;
+      }
+    }
+    h3{
+      text-align: center;
+      color: #757575;
+    }
+  }
+}

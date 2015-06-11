@@ -19,6 +19,35 @@ md-list .md-button {
   color: white !important;
   font-size: x-large; }
 
+.about-me-container {
+  max-width: 884px; }
+  .about-me-container p {
+    font-size: 20px;
+    font-weight: 200; }
+    .about-me-container p strong {
+      font-weight: 500; }
+  .about-me-container .img-wrap {
+    max-width: 137px;
+    margin: 20px 40px; }
+    .about-me-container .img-wrap img {
+      max-width: 120px;
+      max-height: 120px; }
+      .about-me-container .img-wrap img.mongo-logo {
+        margin: 42px 0; }
+      .about-me-container .img-wrap img.express-logo {
+        margin: 47px 0; }
+      .about-me-container .img-wrap img.grunt-logo {
+        margin-left: 10px; }
+      .about-me-container .img-wrap img.gulp-logo {
+        margin-left: 30px; }
+      .about-me-container .img-wrap img.maven-logo {
+        margin: 46px 0; }
+      .about-me-container .img-wrap img.underscore-logo {
+        margin: 50px 2px; }
+    .about-me-container .img-wrap h3 {
+      text-align: center;
+      color: #757575; }
+
 .md-sidenav-left {
   background-color: #00B0FF; }
   .md-sidenav-left md-content {
@@ -50,6 +79,19 @@ md-list .md-button {
     color: red; }
   .main-toolbar h1 {
     font-size: 25px; }
+    .main-toolbar h1 span.welcome {
+      font-weight: 200;
+      color: #01579B; }
+    .main-toolbar h1 .toolbar-name {
+      position: absolute;
+      left: 20px;
+      top: 15px;
+      font-weight: 100;
+      font-size: 2rem; }
+      .main-toolbar h1 .toolbar-name span {
+        font-weight: 300; }
+      .main-toolbar h1 .toolbar-name strong {
+        font-weight: 500; }
     .main-toolbar h1 i {
       cursor: pointer;
       position: absolute;
