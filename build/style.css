@@ -20,7 +20,9 @@ md-list .md-button {
   font-size: x-large; }
 
 .about-me-container {
-  max-width: 884px; }
+  max-width: 920px;
+  padding-left: 20px;
+  padding-right: 10px; }
   .about-me-container p {
     font-size: 20px;
     font-weight: 200; }
@@ -44,6 +46,12 @@ md-list .md-button {
         margin: 46px 0; }
       .about-me-container .img-wrap img.underscore-logo {
         margin: 50px 2px; }
+      .about-me-container .img-wrap img.less-logo {
+        margin: 6px 0; }
+      .about-me-container .img-wrap img.sass-logo {
+        margin: 15px 0; }
+      .about-me-container .img-wrap img.tomcat-logo {
+        margin: 21px 0; }
     .about-me-container .img-wrap h3 {
       text-align: center;
       color: #757575; }
@@ -76,7 +84,8 @@ md-list .md-button {
 .main-toolbar {
   background-color: transparent !important; }
   .main-toolbar button {
-    color: red; }
+    background-color: white;
+    color: black; }
   .main-toolbar h1 {
     font-size: 25px; }
     .main-toolbar h1 span.welcome {

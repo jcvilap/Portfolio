@@ -1,5 +1,7 @@
 .about-me-container{
-  max-width: 884px;
+  max-width: 920px;
+  padding-left: 20px;
+  padding-right: 10px;
   p{
     font-size: 20px;
     font-weight: 200;
@@ -30,6 +32,15 @@
       }
       &.underscore-logo{
         margin: 50px 2px;
+      }
+      &.less-logo{
+        margin: 6px 0;
+      }
+      &.sass-logo{
+        margin: 15px 0;
+      }
+      &.tomcat-logo{
+        margin: 21px 0;
       }
     }
     h3{
