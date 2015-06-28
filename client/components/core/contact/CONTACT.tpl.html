@@ -1,1 +1,30 @@
-<h1>Contact</h1>
+<div class="contact-container">
+    <h3 class="md-headline">
+        <i class="mdi mdi-comment-processing-outline"></i>
+        I'd be pleased to talk to you
+    </h3>
+    <p>Please leave a feedback, share an interest or just write a simple comment, I'll be happy to read it and reply ASAP.</p>
+
+    <md-progress-linear md-mode="determinate" value="{{determinateValue}}"></md-progress-linear>
+
+    <md-content class="form-content md-whiteframe-z5" md-theme="docs-dark" layout-padding>
+        <form ng-submit="sendEmail(form, $event)" name="form">
+            <md-input-container>
+                <label>Name</label>
+                <input md-maxlength="50" type="text" name="name" ng-model="contact.name" required>
+            </md-input-container>
+            <md-input-container>
+                <label>Reply Email</label>
+                <input placeholder="(optional)" type="email" name="email" ng-model="contact.email" required>
+            </md-input-container>
+            <md-input-container>
+                <label>Message Body</label>
+                <textarea ng-model="contact.message"  columns="1" md-maxlength="150" required></textarea>
+            </md-input-container>
+            <md-button class="md-raised md-primary" ng-click="updateEv($event)">send
+                <i class="mdi mdi-send"></i>
+            </md-button>
+        </form>
+    </md-content>
+</div>
+

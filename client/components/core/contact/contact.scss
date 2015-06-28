@@ -1,0 +1,30 @@
+.contact-container{
+  max-width: 920px;
+  padding-left: 20px;
+  padding-right: 20px;
+  p{
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: 20px;
+    strong{
+      font-weight: 500;
+    }
+  }
+  .form-content{
+    margin-top: 5px;
+    form {
+      padding:15px;
+      md-input-container.md-docs-dark-theme label, md-input-container.md-docs-dark-theme .md-placeholder {
+        color: rgb(76, 175, 80);
+      }
+      button{
+        float:right;
+        margin: 20px 0;
+        min-width: 140px;
+      }
+    }
+    .md-char-counter{
+      color: grey;
+    }
+  }
+}
