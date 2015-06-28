@@ -1,9 +1,14 @@
 .main-toolbar{
   background-color: transparent!important;
-
+  .md-toolbar-tools{
+    width: 100%;
+  }
   button{
     background-color: white;
     color: black;
+    border:0;
+    margin-left: 10px;
+    outline: none;
   }
 
   h1{
@@ -12,9 +17,7 @@
       color: #01579B;
     }
     .toolbar-name{
-      position: absolute;
-      left: 20px;
-      top: 15px;
+      float: left;
       font-weight: 100;
       font-size: 2rem;
       span{

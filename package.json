@@ -13,12 +13,14 @@
   },
   "homepage": "https://github.com/jcvilap/Portfolio",
   "dependencies": {
-    "angular": "^1.4.0",
+    "angular": "^1.4.1",
     "angular-animate": "^1.4.0",
     "angular-aria": "^1.4.0",
-    "angular-material": "^0.9.6",
+    "angular-material": "^0.9.8",
+    "angular-resource": "^1.4.1",
     "angular-route": "^1.4.0",
     "angular-ui-router": "^0.2.15",
+    "body-parser": "^1.13.1",
     "express": "^4.12.3",
     "gulp": "^3.9.0",
     "gulp-angular-templatecache": "^1.6.0",
@@ -27,6 +29,7 @@
     "gulp-minify-html": "^1.0.3",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.0.1",
-    "mdi": "^1.1.34"
+    "mdi": "^1.1.34",
+    "nodemailer": "^1.3.4"
   }
 }

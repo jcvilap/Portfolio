@@ -1,3 +1,6 @@
+.ui-view-container {
+  background-color: #f3f3f3 !important; }
+
 .menuBtn {
   background-color: blue;
   border: none;
@@ -18,6 +21,20 @@ md-list .md-button {
   border-color: #fff;
   color: white !important;
   font-size: x-large; }
+
+a {
+  cursor: pointer;
+  color: #106CC8;
+  text-decoration: none;
+  font-weight: 400;
+  border-bottom: 1px solid rgba(64, 84, 178, 0.25);
+  -webkit-transition: border-bottom 0.35s;
+  -moz-transition: border-bottom 0.35s;
+  -ms-transition: border-bottom 0.35s;
+  -o-transition: border-bottom 0.35s;
+  transition: border-bottom 0.35s; }
+  a:hover {
+    border-bottom: 1px solid #4054B2; }
 
 .about-me-container {
   max-width: 920px;
@@ -56,6 +73,52 @@ md-list .md-button {
       text-align: center;
       color: #757575; }
 
+.contact-container {
+  max-width: 920px;
+  padding-left: 20px;
+  padding-right: 20px; }
+  .contact-container p {
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: 20px; }
+    .contact-container p strong {
+      font-weight: 500; }
+  .contact-container .form-content {
+    margin-top: 5px; }
+    .contact-container .form-content form {
+      padding: 15px; }
+      .contact-container .form-content form md-input-container.md-docs-dark-theme label, .contact-container .form-content form md-input-container.md-docs-dark-theme .md-placeholder {
+        color: #4caf50; }
+      .contact-container .form-content form button {
+        float: right;
+        margin: 20px 0;
+        min-width: 140px; }
+    .contact-container .form-content .md-char-counter {
+      color: grey; }
+
+.resources-container {
+  padding-left: 20px;
+  padding-right: 20px; }
+  .resources-container p {
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 30px; }
+  .resources-container .md-whiteframe-z2 {
+    background: #fff;
+    margin: 10px 0;
+    padding: 5px 20px; }
+
+.resume-container {
+  padding-left: 20px;
+  padding-right: 20px; }
+  .resume-container .pdf-container {
+    margin-top: 10px;
+    height: 460px; }
+  .resume-container p {
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 30px; }
+
 .md-sidenav-left {
   background-color: #00B0FF; }
   .md-sidenav-left md-content {
@@ -83,18 +146,21 @@ md-list .md-button {
 
 .main-toolbar {
   background-color: transparent !important; }
+  .main-toolbar .md-toolbar-tools {
+    width: 100%; }
   .main-toolbar button {
     background-color: white;
-    color: black; }
+    color: black;
+    border: 0;
+    margin-left: 10px;
+    outline: none; }
   .main-toolbar h1 {
     font-size: 25px; }
     .main-toolbar h1 span.welcome {
       font-weight: 200;
       color: #01579B; }
     .main-toolbar h1 .toolbar-name {
-      position: absolute;
-      left: 20px;
-      top: 15px;
+      float: left;
       font-weight: 100;
       font-size: 2rem; }
       .main-toolbar h1 .toolbar-name span {

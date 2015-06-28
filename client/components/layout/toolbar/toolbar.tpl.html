@@ -1,15 +1,14 @@
 <md-toolbar layout="row" class="md-whiteframe-z1 main-toolbar">
     <button ng-click="toggleSidenav('left')" hide-gt-sm>
-        <span class="md-visually-hidden">Menu</span>
-        <i class="mdi-menu"></i>
+        <i class="mdi mdi-menu"></i>
     </button>
-    <h1 class="md-toolbar-tools" layout-align-gt-sm="center">
-        <div class="toolbar-name">
+    <h1 class="md-toolbar-tools" layout="row" layout-align="space-between center">
+        <span class="toolbar-name">
             Julio
             <span>C.</span>
             <strong>Vila</strong>
-        </div>
-        <span hide-sm hide-md class="welcome">Welcome</span>
+        </span>
+        <span hide-sm hide-md class="welcome"> {{ toolbarMessage }}</span>
         <a href="https://www.linkedin.com/pub/julio-c-vila/5b/14b/632" target="_blank">
             <i class="mdi mdi-linkedin-box"><md-tooltip>Linkedin Profile</md-tooltip></i>
         </a>

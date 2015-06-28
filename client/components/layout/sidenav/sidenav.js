@@ -6,10 +6,12 @@ directive('sidenav', function() {
             //
         },
         templateUrl: 'client/components/layout/sidenav/sidenav.tpl.html',
-        controller: function($scope, $state){
+        controller: function($scope, $state, $mdSidenav){
             $scope.index = 1;
+
             $scope.changeView = function(index){
                 $scope.index = index;
+                $mdSidenav('left').close();
                 switch(index) {
                     case 1:
                         $state.go('aboutMe');
