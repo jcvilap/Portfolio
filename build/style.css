@@ -77,7 +77,11 @@ a {
   .pdf-container {
     display: none !important; }
   .pdf-container-small {
-    display: block !important; } }
+    display: block !important; }
+  .toolbar-name {
+    font-size: 25px !important; }
+  .main-toolbar h1 a {
+    top: 17px !important; } }
 
 .about-me-container {
   max-width: 920px;
@@ -210,7 +214,8 @@ a {
       color: #01579B;
       position: fixed;
       top: 20px;
-      left: 50%; }
+      left: 50% !important;
+      width: 80%; }
     .main-toolbar h1 .toolbar-name {
       float: left;
       font-weight: 100;
