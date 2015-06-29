@@ -42,3 +42,64 @@ a{
       border-bottom: 1px solid #4054B2;
   }
 }
+
+/* Mobile */
+@media screen and (max-device-width: 480px) {
+  .about-me-container > section{
+    padding: 0!important;
+  }
+
+  .about-me-container .img-wrap h3 {
+    width: 100px!important;
+  }
+
+  .about-me-container .img-wrap {
+    margin: 20px 35px 0!important;
+  }
+
+  .about-me-container .img-wrap img {
+    max-width: 90px!important;
+    max-height: 90px!important;
+  }
+
+  .about-me-container .img-wrap img.express-logo {
+    margin: 43px 0!important;
+  }
+
+  .about-me-container .img-wrap img.underscore-logo {
+    margin: 37px 2px!important;
+  }
+
+  .about-me-container .img-wrap img.less-logo {
+    margin: 8px 0 !important;
+  }
+  .about-me-container .img-wrap img.maven-logo {
+    margin: 40px 0!important;
+  }
+
+  .resources-container, .about-me-container, .resume-container, .contact-container{
+    padding-left: 1px !important;
+    padding-right: 1px !important;
+  }
+  .resources-container > p, .about-me-container > p, .resume-container  > p, .contact-container  > p{
+    margin-bottom: 10px !important;
+    padding: 0 5px !important;
+  }
+
+  .resources-container > h3, .about-me-container > h3, .resume-container  > h3, .contact-container  > h3{
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .resources-container .md-whiteframe-z2 {
+    margin-bottom: 3px !important;
+    margin-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  p{
+    font-size: 18px!important;
+  }
+
+}
