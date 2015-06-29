@@ -1,5 +1,6 @@
 .ui-view-container{
   background-color: #f3f3f3 !important;
+  margin-top: 60px;
 }
 
 .menuBtn {
@@ -90,6 +91,9 @@ a{
     margin-top: 10px;
     margin-bottom: 0px;
   }
+  img.mongo-logo{
+    margin: 42px 0 38px 0!important;
+  }
 
   .resources-container .md-whiteframe-z2 {
     margin-bottom: 3px !important;
@@ -100,6 +104,13 @@ a{
 
   p{
     font-size: 18px!important;
+  }
+
+  .pdf-container{
+    display: none !important;
+  }
+  .pdf-container-small{
+    display: block !important;
   }
 
 }

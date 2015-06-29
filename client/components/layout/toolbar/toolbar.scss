@@ -1,5 +1,6 @@
 .main-toolbar{
-  background-color: transparent!important;
+  background-color: white!important;
+  position: fixed;
   .md-toolbar-tools{
     width: 100%;
   }
@@ -15,6 +16,9 @@
     span.welcome{
       font-weight: 200;
       color: #01579B;
+      position: fixed;
+      top: 20px;
+      left: 50%;
     }
     .toolbar-name{
       float: left;
@@ -29,16 +33,18 @@
     }
 
     font-size: 25px;
-    i{
-      cursor: pointer;
-      position: absolute;
+    a{
+      border: 0!important;
+      position: fixed;
       top: 20px;
-      &.mdi-linkedin-box{
-        right: 35px;
+      cursor: pointer;
+      &.li-link{
+        right: 20px;
       }
-      &.mdi-github-box{
-        right: 80px;
+      &.github-link{
+        right: 60px;
       }
     }
+
   }
 }
